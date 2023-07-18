@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        td,
+        th {
+            border: 1px solid black;
+
+        }
+
+        td.num {
+            text-align: right;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
+        thead>tr>th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+
+        thead,
+        tfoot {
+            background-color: gray;
+            color: white;
+            height: 40px;
+        }
+
+        tbody>tr:nth-child(even) {
+            background-color: lightgrey;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Uso de tabelas grandes</h1>
+    <!--
+        Anatomia para Tabelas Grandes:
+        TABLE
+            CAPTION
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
+    -->
+
+    <table>
+        <caption>
+            População dos Estados
+        </caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 90px;">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>SP</td>
+                <td class="num">45.634.536</td>
+            </tr>
+            <tr>
+                <td>MG</td>
+                <td class="num">21.645.764</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17.543.758</td>
+            </tr>
+            <tr>
+                <td>SP</td>
+                <td class="num">45.634.536</td>
+            </tr>
+            <tr>
+                <td>MG</td>
+                <td class="num">21.645.764</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17.543.758</td>
+            </tr>
+            <tr>
+                <td>SP</td>
+                <td class="num">45.634.536</td>
+            </tr>
+            <tr>
+                <td>MG</td>
+                <td class="num">21.645.764</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17.543.758</td>
+            </tr>
+            <tr>
+                <td>SP</td>
+                <td class="num">45.634.536</td>
+            </tr>
+            <tr>
+                <td>MG</td>
+                <td class="num">21.645.764</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17.543.758</td>
+            </tr>
+            <tr>
+                <td>SP</td>
+                <td class="num">45.634.536</td>
+            </tr>
+            <tr>
+                <td>MG</td>
+                <td class="num">21.645.764</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17.543.758</td>
+            </tr>
+            <tr>
+                <td>SP</td>
+                <td class="num">45.634.536</td>
+            </tr>
+            <tr>
+                <td>MG</td>
+                <td class="num">21.645.764</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17.543.758</td>
+            </tr>
+            <tr>
+                <td>SP</td>
+                <td class="num">45.634.536</td>
+            </tr>
+            <tr>
+                <td>MG</td>
+                <td class="num">21.645.764</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17.543.758</td>
+            </tr>
+            <tr>
+                <td>SP</td>
+                <td class="num">45.634.536</td>
+            </tr>
+            <tr>
+                <td>MG</td>
+                <td class="num">21.645.764</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17.543.758</td>
+            </tr>
+            <tr>
+                <td>SP</td>
+                <td class="num">45.634.536</td>
+            </tr>
+            <tr>
+                <td>MG</td>
+                <td class="num">21.645.764</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17.543.758</td>
+            </tr>
+            <tr>
+                <td>SP</td>
+                <td class="num">45.634.536</td>
+            </tr>
+            <tr>
+                <td>MG</td>
+                <td class="num">21.645.764</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17.543.758</td>
+            </tr>
+            <tr>
+                <td>SP</td>
+                <td class="num">45.634.536</td>
+            </tr>
+            <tr>
+                <td>MG</td>
+                <td class="num">21.645.764</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17.543.758</td>
+            </tr>
+            <tr>
+                <td>SP</td>
+                <td class="num">45.634.536</td>
+            </tr>
+            <tr>
+                <td>MG</td>
+                <td class="num">21.645.764</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17.543.758</td>
+            </tr>
+            <tr>
+                <td>SP</td>
+                <td class="num">45.634.536</td>
+            </tr>
+            <tr>
+                <td>MG</td>
+                <td class="num">21.645.764</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17.543.758</td>
+            </tr>
+            <tr>
+                <td>SP</td>
+                <td class="num">45.634.536</td>
+            </tr>
+            <tr>
+                <td>MG</td>
+                <td class="num">21.645.764</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17.543.758</td>
+            </tr>
+            <tr>
+                <td>SP</td>
+                <td class="num">45.634.536</td>
+            </tr>
+            <tr>
+                <td>MG</td>
+                <td class="num">21.645.764</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17.543.758</td>
+            </tr>
+            <tr>
+                <td>SP</td>
+                <td class="num">45.634.536</td>
+            </tr>
+            <tr>
+                <td>MG</td>
+                <td class="num">21.645.764</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17.543.758</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th scope="row">Total de Habitantes</th>
+            <td class="num"><strong>74.865.234</strong></td>
+        </tfoot>
+    </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti necessitatibus, ratione omnis delectus illum
+        neque fugiat suscipit similique ullam doloribus dolorum earum nihil. Corporis vitae a corrupti nam, facilis
+        natus.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum odit nisi iusto, nobis nulla debitis nesciunt quis
+        ad, voluptatum asperiores vel ipsum autem velit, voluptate quasi quaerat dolores molestiae nihil?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum odit nisi iusto, nobis nulla debitis nesciunt quis
+        ad, voluptatum asperiores vel ipsum autem velit, voluptate quasi quaerat dolores molestiae nihil?</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum odit nisi iusto, nobis nulla debitis nesciunt quis
+        ad, voluptatum asperiores vel ipsum autem velit, voluptate quasi quaerat dolores molestiae nihil?</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum odit nisi iusto, nobis nulla debitis nesciunt quis
+        ad, voluptatum asperiores vel ipsum autem velit, voluptate quasi quaerat dolores molestiae nihil?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum odit nisi iusto, nobis nulla debitis nesciunt quis
+        ad, voluptatum asperiores vel ipsum autem velit, voluptate quasi quaerat dolores molestiae nihil?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum odit nisi iusto, nobis nulla debitis nesciunt quis
+        ad, voluptatum asperiores vel ipsum autem velit, voluptate quasi quaerat dolores molestiae nihil?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum odit nisi iusto, nobis nulla debitis nesciunt quis
+        ad, voluptatum asperiores vel ipsum autem velit, voluptate quasi quaerat dolores molestiae nihil?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum odit nisi iusto, nobis nulla debitis nesciunt quis
+        ad, voluptatum asperiores vel ipsum autem velit, voluptate quasi quaerat dolores molestiae nihil?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum odit nisi iusto, nobis nulla debitis nesciunt quis
+        ad, voluptatum asperiores vel ipsum autem velit, voluptate quasi quaerat dolores molestiae nihil?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum odit nisi iusto, nobis nulla debitis nesciunt quis
+        ad, voluptatum asperiores vel ipsum autem velit, voluptate quasi quaerat dolores molestiae nihil?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum odit nisi iusto, nobis nulla debitis nesciunt quis
+        ad, voluptatum asperiores vel ipsum autem velit, voluptate quasi quaerat dolores molestiae nihil?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum odit nisi iusto, nobis nulla debitis nesciunt quis
+        ad, voluptatum asperiores vel ipsum autem velit, voluptate quasi quaerat dolores molestiae nihil?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum odit nisi iusto, nobis nulla debitis nesciunt quis
+        ad, voluptatum asperiores vel ipsum autem velit, voluptate quasi quaerat dolores molestiae nihil?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum odit nisi iusto, nobis nulla debitis nesciunt quis
+        ad, voluptatum asperiores vel ipsum autem velit, voluptate quasi quaerat dolores molestiae nihil?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum odit nisi iusto, nobis nulla debitis nesciunt quis
+        ad, voluptatum asperiores vel ipsum autem velit, voluptate quasi quaerat dolores molestiae nihil?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum odit nisi iusto, nobis nulla debitis nesciunt quis
+        ad, voluptatum asperiores vel ipsum autem velit, voluptate quasi quaerat dolores molestiae nihil?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum odit nisi iusto, nobis nulla debitis nesciunt quis
+        ad, voluptatum asperiores vel ipsum autem velit, voluptate quasi quaerat dolores molestiae nihil?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum odit nisi iusto, nobis nulla debitis nesciunt quis
+        ad, voluptatum asperiores vel ipsum autem velit, voluptate quasi quaerat dolores molestiae nihil?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum odit nisi iusto, nobis nulla debitis nesciunt quis
+        ad, voluptatum asperiores vel ipsum autem velit, voluptate quasi quaerat dolores molestiae nihil?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum odit nisi iusto, nobis nulla debitis nesciunt quis
+        ad, voluptatum asperiores vel ipsum autem velit, voluptate quasi quaerat dolores molestiae nihil?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum odit nisi iusto, nobis nulla debitis nesciunt quis
+        ad, voluptatum asperiores vel ipsum autem velit, voluptate quasi quaerat dolores molestiae nihil?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum odit nisi iusto, nobis nulla debitis nesciunt quis
+        ad, voluptatum asperiores vel ipsum autem velit, voluptate quasi quaerat dolores molestiae nihil?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum odit nisi iusto, nobis nulla debitis nesciunt quis
+        ad, voluptatum asperiores vel ipsum autem velit, voluptate quasi quaerat dolores molestiae nihil?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum odit nisi iusto, nobis nulla debitis nesciunt quis
+        ad, voluptatum asperiores vel ipsum autem velit, voluptate quasi quaerat dolores molestiae nihil?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum odit nisi iusto, nobis nulla debitis nesciunt quis
+        ad, voluptatum asperiores vel ipsum autem velit, voluptate quasi quaerat dolores molestiae nihil?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum odit nisi iusto, nobis nulla debitis nesciunt quis
+        ad, voluptatum asperiores vel ipsum autem velit, voluptate quasi quaerat dolores molestiae nihil?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum odit nisi iusto, nobis nulla debitis nesciunt quis
+        ad, voluptatum asperiores vel ipsum autem velit, voluptate quasi quaerat dolores molestiae nihil?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum odit nisi iusto, nobis nulla debitis nesciunt quis
+        ad, voluptatum asperiores vel ipsum autem velit, voluptate quasi quaerat dolores molestiae nihil?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum odit nisi iusto, nobis nulla debitis nesciunt quis
+        ad, voluptatum asperiores vel ipsum autem velit, voluptate quasi quaerat dolores molestiae nihil?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum odit nisi iusto, nobis nulla debitis nesciunt quis
+        ad, voluptatum asperiores vel ipsum autem velit, voluptate quasi quaerat dolores molestiae nihil?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum odit nisi iusto, nobis nulla debitis nesciunt quis
+        ad, voluptatum asperiores vel ipsum autem velit, voluptate quasi quaerat dolores molestiae nihil?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum odit nisi iusto, nobis nulla debitis nesciunt quis
+        ad, voluptatum asperiores vel ipsum autem velit, voluptate quasi quaerat dolores molestiae nihil?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum odit nisi iusto, nobis nulla debitis nesciunt quis
+        ad, voluptatum asperiores vel ipsum autem velit, voluptate quasi quaerat dolores molestiae nihil?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum odit nisi iusto, nobis nulla debitis nesciunt quis
+        ad, voluptatum asperiores vel ipsum autem velit, voluptate quasi quaerat dolores molestiae nihil?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum odit nisi iusto, nobis nulla debitis nesciunt quis
+        ad, voluptatum asperiores vel ipsum autem velit, voluptate quasi quaerat dolores molestiae nihil?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum odit nisi iusto, nobis nulla debitis nesciunt quis
+        ad, voluptatum asperiores vel ipsum autem velit, voluptate quasi quaerat dolores molestiae nihil?</p>
+
+
+</body>
+
+</html>
